@@ -34,7 +34,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Amirrezam75\\TokenizedLogin\\TokenizedLoginServiceProvider"
+        "AmirRezaM75\\TokenizedLogin\\TokenizedLoginServiceProvider"
       ]
     }
   }
