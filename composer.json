@@ -1,0 +1,41 @@
+{
+  "name": "amirrezam75/tokenized-login",
+  "description": "",
+  "keywords": [
+    "laravel",
+    "PHP"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/amirrezam75/tokenized-login",
+  "authors": [
+    {
+      "name": "Amir Reza Mehrbakhsh",
+      "email": "amirrezax@hotmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.1.3|7.2.*|7.3.*|7.4.*",
+    "laravel/framework": "~5.1|6.*|7.*|8.*"
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "AmirRezaM75\\TokenizedLogin\\": "tests"
+    }
+  },
+  "require-dev": {
+    "orchestra/testbench": "~3.0",
+    "mockery/mockery": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "AmirRezaM75\\TokenizedLogin\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Amirrezam75\\TokenizedLogin\\TokenizedLoginServiceProvider"
+      ]
+    }
+  }
+}
